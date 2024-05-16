@@ -135,7 +135,7 @@ Felicitaciones, nuestro servidor TCP ha funcionado correctamente
 
 ### Terminando tutorial
 
-En el codigo de nuestro archivo server.js, existe cierto comando que no esta comentado en la siguiente seccion:
+En el codigo de nuestro archivo server.js, existe cierto comando que esta comentado en la siguiente seccion:
 
 ```
 con.on('data', (data) => {
@@ -144,7 +144,7 @@ con.on('data', (data) => {
         //con.write("Mensaje desde servidor:"+data)
     });
 ```
-Este codigo suponia permitir que cada mensaje recibido por los otros usuarios nuestro servidor pudiera propagarlo, pero simplemente lo propaga al usuario que envió la informacion
+Este codigo suponia permitir que cada mensaje recibido por los otros usuarios, nuestro servidor pudiera propagarlo, pero simplemente lo propaga al usuario que envió la informacion
 
 ## Implementacion
 
